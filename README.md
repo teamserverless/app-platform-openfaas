@@ -32,6 +32,8 @@ cp -r build/my-function/* ../
 
 Do a commit and your function will be built and deployed by AP.
 
+You can also just run `make build` which automates the above.
+
 ## What next?
 
 It would be nice if DO added support for faas-cli and openfaas templates

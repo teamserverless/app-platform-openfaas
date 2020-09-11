@@ -18,5 +18,5 @@ func Handle(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(fmt.Sprintf("Hello from OpenFaaS to the App Platform team. The input was: %s", string(input))))
+	w.Write([]byte(fmt.Sprintf("Hello from OpenFaaS to the App Platform team. Body: %s", string(input))))
 }
