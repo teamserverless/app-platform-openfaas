@@ -19,7 +19,7 @@ Then hack on your code at `my-function/handler.go` and add a go.mod in the `my-f
 Next shrinkwrap the function into a build context:
 
 ```
-faas-cli shrinkwrap -f my-function.yml
+faas-cli build --shrinkwrap -f my-function.yml
 ```
 
 This creates a build context and Dockerfile at `build/my-function`
